@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  font-family: Poppins, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #699dec;
+}
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 4rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #1c5c9c;
+  margin: 0;
+  padding: 0;
+  margin-top: -15rem;
+  padding-top: -15rem;
+}
+h1 {
+  margin: 0;
+  padding: 2rem;
+}
+
+header {
+  background-color: #699dec;
+  color: white;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+#home {
+  background-image: url("pexels-jeremy-bishop-1260133-2397651.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #feffff;
+  padding: 100px 20px;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 6rem;
+}
+
+#cyberthreats {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  text-align: center;
+}
+
+.threats-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.threat-item {
+  background-color: #ffffff;
+  border: 2px solid #0076d6;
+  border-radius: 5px;
+  padding: 1rem;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.threat-icon {
+  width: 50px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.threat-item h3 {
+  font-size: 1.2rem;
+  color: #0076d6;
+  margin: 0;
+}
+.btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.btn-primary {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  background-color: #0076d6;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #005bb5;
+}
+.btn-secondary {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #0076d6;
+  background-color: white;
+  border: 2px solid #0076d6;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.btn-secondary:hover {
+  background-color: #0076d6;
+  color: white;
+}
+#about {
+  background-color: #699dec;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  height: auto;
+}
+section {
+  margin: 0;
+  padding: 2rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  flex: 0 0 auto;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex: 1;
+  justify-content: center;
+}
+
+.nav-links li {
+  margin: 0 1rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form label {
+  display: block;
+  margin-top: 1rem;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+form button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #0076d6;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#services {
+  position: relative;
+  overflow: hidden;
+  height: 55vh;
+}
+
+.background-image {
+  background-image: url("clas.jpg");
+  background-size: 70% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.content {
+  position: relative;
+  color: #ffffff;
+  text-align: center;
+  padding: 2rem;
+  margin: auto;
+  margin-bottom: 5rem;
+  max-width: 800px;
+}
+.quick-links-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 10rem;
+}
+#services .content h2 {
+  font-size: 10.3rem;
+  margin-bottom: 2rem;
+}
+
+#services .content p {
+  font-size: 1.4rem;
+  line-height: 1.3;
+  margin-bottom: 2rem;
+}
+
+#services .content {
+  padding: 3rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.quick-link-item {
+  flex: 1 1 150px;
+  padding: 1rem;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.quick-link-item h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #1c5c9c;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  background-color: #5582c7;
+  color: #fff;
+  padding: 2rem 1rem;
+  text-align: left;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-logo img {
+  max-width: 150px;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-section h3,
+.footer-section h4 {
+  margin-bottom: 1rem;
+}
+
+.footer-section a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .footer-links {
+    flex-direction: column;
+  }
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .menu-toggle.active + .nav-links {
+    display: flex;
+  }
+}
